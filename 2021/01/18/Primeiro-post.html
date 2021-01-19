@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Title | My first blog</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Title" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Data Science blog" />
+<meta property="og:description" content="Data Science blog" />
+<link rel="canonical" href="https://veroberg.github.io/my_first_blog/2021/01/18/Primeiro-post.html" />
+<meta property="og:url" content="https://veroberg.github.io/my_first_blog/2021/01/18/Primeiro-post.html" />
+<meta property="og:site_name" content="My first blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-01-18T00:00:00-06:00" />
+<script type="application/ld+json">
+{"url":"https://veroberg.github.io/my_first_blog/2021/01/18/Primeiro-post.html","@type":"BlogPosting","headline":"Title","dateModified":"2021-01-18T00:00:00-06:00","datePublished":"2021-01-18T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://veroberg.github.io/my_first_blog/2021/01/18/Primeiro-post.html"},"description":"Data Science blog","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/my_first_blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://veroberg.github.io/my_first_blog/feed.xml" title="My first blog" /><link rel="shortcut icon" type="image/x-icon" href="/my_first_blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/my_first_blog/">My first blog</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/my_first_blog/about/">About Me</a><a class="page-link" href="/my_first_blog/search/">Search</a><a class="page-link" href="/my_first_blog/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Title</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-01-18T00:00:00-06:00" itemprop="datePublished">
+        Jan 18, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      2 min read
+    
+</span></p>
+
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-wrap flex-justify-end">
+          <div class="px-2">
+
+    <a href="https://github.com/Veroberg/my_first_blog/tree/master/_notebooks/2021-01-18-Primeiro-post.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/my_first_blog/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/Veroberg/my_first_blog/master?filepath=_notebooks%2F2021-01-18-Primeiro-post.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/my_first_blog/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/Veroberg/my_first_blog/blob/master/_notebooks/2021-01-18-Primeiro-post.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/my_first_blog/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2021-01-18-Primeiro-post.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>My page Criando a minha primeira página de Blog com o Jupyter Notebook</p>
+<ul>
+<li>toc: false</li>
+<li>branch: master</li>
+<li>badges: false</li>
+<li>comments: false</li>
+<li>author: Veronica</li>
+<li>categories: [blog]</li>
+</ul>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">1000</span><span class="p">,(</span><span class="mi">10</span><span class="p">,</span><span class="mi">10</span><span class="p">))</span>
+<span class="n">data</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([[ 56,  58,  94, 843, 794, 833, 391, 850, 384, 941],
+       [951, 389, 379,  88, 960, 603, 791, 777, 426, 954],
+       [154, 158, 161, 837,  82,  59,  76, 602, 740, 873],
+       [178,   8, 748, 405, 711, 680, 770, 375, 649,  25],
+       [483,  15, 285, 489, 448, 577, 339, 528, 440, 792],
+       [681, 532, 953, 277, 271, 438,  14, 716, 899,   2],
+       [368, 975, 989, 169, 416, 976, 400, 870, 988, 389],
+       [437, 454, 895, 261, 721, 294, 309,  38, 922,   3],
+       [613, 926, 274, 518, 212, 301, 265, 465, 252, 799],
+       [529, 637, 406,  25, 522, 767, 132, 332, 462, 362]])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df1</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="n">df1</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>56</td>
+      <td>58</td>
+      <td>94</td>
+      <td>843</td>
+      <td>794</td>
+      <td>833</td>
+      <td>391</td>
+      <td>850</td>
+      <td>384</td>
+      <td>941</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>951</td>
+      <td>389</td>
+      <td>379</td>
+      <td>88</td>
+      <td>960</td>
+      <td>603</td>
+      <td>791</td>
+      <td>777</td>
+      <td>426</td>
+      <td>954</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>154</td>
+      <td>158</td>
+      <td>161</td>
+      <td>837</td>
+      <td>82</td>
+      <td>59</td>
+      <td>76</td>
+      <td>602</td>
+      <td>740</td>
+      <td>873</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>178</td>
+      <td>8</td>
+      <td>748</td>
+      <td>405</td>
+      <td>711</td>
+      <td>680</td>
+      <td>770</td>
+      <td>375</td>
+      <td>649</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>483</td>
+      <td>15</td>
+      <td>285</td>
+      <td>489</td>
+      <td>448</td>
+      <td>577</td>
+      <td>339</td>
+      <td>528</td>
+      <td>440</td>
+      <td>792</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>681</td>
+      <td>532</td>
+      <td>953</td>
+      <td>277</td>
+      <td>271</td>
+      <td>438</td>
+      <td>14</td>
+      <td>716</td>
+      <td>899</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>368</td>
+      <td>975</td>
+      <td>989</td>
+      <td>169</td>
+      <td>416</td>
+      <td>976</td>
+      <td>400</td>
+      <td>870</td>
+      <td>988</td>
+      <td>389</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>437</td>
+      <td>454</td>
+      <td>895</td>
+      <td>261</td>
+      <td>721</td>
+      <td>294</td>
+      <td>309</td>
+      <td>38</td>
+      <td>922</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>613</td>
+      <td>926</td>
+      <td>274</td>
+      <td>518</td>
+      <td>212</td>
+      <td>301</td>
+      <td>265</td>
+      <td>465</td>
+      <td>252</td>
+      <td>799</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>529</td>
+      <td>637</td>
+      <td>406</td>
+      <td>25</td>
+      <td>522</td>
+      <td>767</td>
+      <td>132</td>
+      <td>332</td>
+      <td>462</td>
+      <td>362</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df2</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="n">df2</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>56</td>
+      <td>58</td>
+      <td>94</td>
+      <td>843</td>
+      <td>794</td>
+      <td>833</td>
+      <td>391</td>
+      <td>850</td>
+      <td>384</td>
+      <td>941</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>951</td>
+      <td>389</td>
+      <td>379</td>
+      <td>88</td>
+      <td>960</td>
+      <td>603</td>
+      <td>791</td>
+      <td>777</td>
+      <td>426</td>
+      <td>954</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>154</td>
+      <td>158</td>
+      <td>161</td>
+      <td>837</td>
+      <td>82</td>
+      <td>59</td>
+      <td>76</td>
+      <td>602</td>
+      <td>740</td>
+      <td>873</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>178</td>
+      <td>8</td>
+      <td>748</td>
+      <td>405</td>
+      <td>711</td>
+      <td>680</td>
+      <td>770</td>
+      <td>375</td>
+      <td>649</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>483</td>
+      <td>15</td>
+      <td>285</td>
+      <td>489</td>
+      <td>448</td>
+      <td>577</td>
+      <td>339</td>
+      <td>528</td>
+      <td>440</td>
+      <td>792</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>681</td>
+      <td>532</td>
+      <td>953</td>
+      <td>277</td>
+      <td>271</td>
+      <td>438</td>
+      <td>14</td>
+      <td>716</td>
+      <td>899</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>368</td>
+      <td>975</td>
+      <td>989</td>
+      <td>169</td>
+      <td>416</td>
+      <td>976</td>
+      <td>400</td>
+      <td>870</td>
+      <td>988</td>
+      <td>389</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>437</td>
+      <td>454</td>
+      <td>895</td>
+      <td>261</td>
+      <td>721</td>
+      <td>294</td>
+      <td>309</td>
+      <td>38</td>
+      <td>922</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>613</td>
+      <td>926</td>
+      <td>274</td>
+      <td>518</td>
+      <td>212</td>
+      <td>301</td>
+      <td>265</td>
+      <td>465</td>
+      <td>252</td>
+      <td>799</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>529</td>
+      <td>637</td>
+      <td>406</td>
+      <td>25</td>
+      <td>522</td>
+      <td>767</td>
+      <td>132</td>
+      <td>332</td>
+      <td>462</td>
+      <td>362</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df3</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="n">df3</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>56</td>
+      <td>58</td>
+      <td>94</td>
+      <td>843</td>
+      <td>794</td>
+      <td>833</td>
+      <td>391</td>
+      <td>850</td>
+      <td>384</td>
+      <td>941</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>951</td>
+      <td>389</td>
+      <td>379</td>
+      <td>88</td>
+      <td>960</td>
+      <td>603</td>
+      <td>791</td>
+      <td>777</td>
+      <td>426</td>
+      <td>954</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>154</td>
+      <td>158</td>
+      <td>161</td>
+      <td>837</td>
+      <td>82</td>
+      <td>59</td>
+      <td>76</td>
+      <td>602</td>
+      <td>740</td>
+      <td>873</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>178</td>
+      <td>8</td>
+      <td>748</td>
+      <td>405</td>
+      <td>711</td>
+      <td>680</td>
+      <td>770</td>
+      <td>375</td>
+      <td>649</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>483</td>
+      <td>15</td>
+      <td>285</td>
+      <td>489</td>
+      <td>448</td>
+      <td>577</td>
+      <td>339</td>
+      <td>528</td>
+      <td>440</td>
+      <td>792</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>681</td>
+      <td>532</td>
+      <td>953</td>
+      <td>277</td>
+      <td>271</td>
+      <td>438</td>
+      <td>14</td>
+      <td>716</td>
+      <td>899</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>368</td>
+      <td>975</td>
+      <td>989</td>
+      <td>169</td>
+      <td>416</td>
+      <td>976</td>
+      <td>400</td>
+      <td>870</td>
+      <td>988</td>
+      <td>389</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>437</td>
+      <td>454</td>
+      <td>895</td>
+      <td>261</td>
+      <td>721</td>
+      <td>294</td>
+      <td>309</td>
+      <td>38</td>
+      <td>922</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>613</td>
+      <td>926</td>
+      <td>274</td>
+      <td>518</td>
+      <td>212</td>
+      <td>301</td>
+      <td>265</td>
+      <td>465</td>
+      <td>252</td>
+      <td>799</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>529</td>
+      <td>637</td>
+      <td>406</td>
+      <td>25</td>
+      <td>522</td>
+      <td>767</td>
+      <td>132</td>
+      <td>332</td>
+      <td>462</td>
+      <td>362</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/my_first_blog/2021/01/18/Primeiro-post.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/my_first_blog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/my_first_blog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/my_first_blog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>Data Science blog</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
