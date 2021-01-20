@@ -3,6 +3,17 @@
     
         "post0": {
             "title": "My page",
+            "content": "import pandas as pd import numpy as np . data = np.random.randint(0,800,(3,3)) data . array([[182, 362, 529], [359, 668, 654], [ 49, 424, 109]]) . df1 = pd.DataFrame(data) df1 . 0 1 2 . 0 182 | 362 | 529 | . 1 359 | 668 | 654 | . 2 49 | 424 | 109 | . df2 = pd.DataFrame(data) df2 . 0 1 2 . 0 182 | 362 | 529 | . 1 359 | 668 | 654 | . 2 49 | 424 | 109 | . df3 = pd.DataFrame(data) df3 . 0 1 2 . 0 182 | 362 | 529 | . 1 359 | 668 | 654 | . 2 49 | 424 | 109 | .",
+            "url": "https://veroberg.github.io/my_first_blog/blog/2021/01/18/Third-Post-(1).html",
+            "relUrl": "/blog/2021/01/18/Third-Post-(1).html",
+            "date": " • Jan 18, 2021"
+        }
+        
+    
+  
+    
+        ,"post1": {
+            "title": "My page",
             "content": "import pandas as pd import numpy as np . data = np.random.randint(0,500,(5,5)) data . array([[331, 69, 328, 108, 489], [315, 321, 32, 245, 493], [256, 346, 353, 261, 368], [ 43, 54, 196, 136, 496], [ 30, 197, 189, 243, 301]]) . df1 = pd.DataFrame(data) df1 . 0 1 2 3 4 . 0 331 | 69 | 328 | 108 | 489 | . 1 315 | 321 | 32 | 245 | 493 | . 2 256 | 346 | 353 | 261 | 368 | . 3 43 | 54 | 196 | 136 | 496 | . 4 30 | 197 | 189 | 243 | 301 | . df2 = pd.DataFrame(data) df2 . 0 1 2 3 4 . 0 331 | 69 | 328 | 108 | 489 | . 1 315 | 321 | 32 | 245 | 493 | . 2 256 | 346 | 353 | 261 | 368 | . 3 43 | 54 | 196 | 136 | 496 | . 4 30 | 197 | 189 | 243 | 301 | . df3 = pd.DataFrame(data) df3 . 0 1 2 3 4 . 0 331 | 69 | 328 | 108 | 489 | . 1 315 | 321 | 32 | 245 | 493 | . 2 256 | 346 | 353 | 261 | 368 | . 3 43 | 54 | 196 | 136 | 496 | . 4 30 | 197 | 189 | 243 | 301 | .",
             "url": "https://veroberg.github.io/my_first_blog/blog/2021/01/18/Second-Post-(2).html",
             "relUrl": "/blog/2021/01/18/Second-Post-(2).html",
@@ -12,7 +23,7 @@
     
   
     
-        ,"post1": {
+        ,"post2": {
             "title": "My page",
             "content": "import pandas as pd import numpy as np . data = np.random.randint(0,1000,(10,10)) data . array([[278, 684, 229, 411, 922, 863, 163, 422, 224, 450], [903, 225, 387, 588, 494, 21, 58, 7, 970, 408], [174, 47, 333, 630, 229, 234, 103, 988, 651, 259], [985, 907, 523, 653, 397, 169, 466, 598, 362, 821], [241, 116, 609, 466, 310, 223, 626, 545, 916, 239], [123, 427, 475, 273, 829, 191, 28, 87, 255, 210], [869, 93, 991, 792, 525, 167, 394, 456, 130, 497], [288, 306, 595, 683, 209, 866, 997, 273, 568, 871], [513, 730, 880, 745, 77, 753, 432, 783, 916, 53], [279, 959, 381, 253, 619, 960, 399, 439, 250, 240]]) . df1 = pd.DataFrame(data) df1 . 0 1 2 3 4 5 6 7 8 9 . 0 278 | 684 | 229 | 411 | 922 | 863 | 163 | 422 | 224 | 450 | . 1 903 | 225 | 387 | 588 | 494 | 21 | 58 | 7 | 970 | 408 | . 2 174 | 47 | 333 | 630 | 229 | 234 | 103 | 988 | 651 | 259 | . 3 985 | 907 | 523 | 653 | 397 | 169 | 466 | 598 | 362 | 821 | . 4 241 | 116 | 609 | 466 | 310 | 223 | 626 | 545 | 916 | 239 | . 5 123 | 427 | 475 | 273 | 829 | 191 | 28 | 87 | 255 | 210 | . 6 869 | 93 | 991 | 792 | 525 | 167 | 394 | 456 | 130 | 497 | . 7 288 | 306 | 595 | 683 | 209 | 866 | 997 | 273 | 568 | 871 | . 8 513 | 730 | 880 | 745 | 77 | 753 | 432 | 783 | 916 | 53 | . 9 279 | 959 | 381 | 253 | 619 | 960 | 399 | 439 | 250 | 240 | . df2 = pd.DataFrame(data) df2 . 0 1 2 3 4 5 6 7 8 9 . 0 278 | 684 | 229 | 411 | 922 | 863 | 163 | 422 | 224 | 450 | . 1 903 | 225 | 387 | 588 | 494 | 21 | 58 | 7 | 970 | 408 | . 2 174 | 47 | 333 | 630 | 229 | 234 | 103 | 988 | 651 | 259 | . 3 985 | 907 | 523 | 653 | 397 | 169 | 466 | 598 | 362 | 821 | . 4 241 | 116 | 609 | 466 | 310 | 223 | 626 | 545 | 916 | 239 | . 5 123 | 427 | 475 | 273 | 829 | 191 | 28 | 87 | 255 | 210 | . 6 869 | 93 | 991 | 792 | 525 | 167 | 394 | 456 | 130 | 497 | . 7 288 | 306 | 595 | 683 | 209 | 866 | 997 | 273 | 568 | 871 | . 8 513 | 730 | 880 | 745 | 77 | 753 | 432 | 783 | 916 | 53 | . 9 279 | 959 | 381 | 253 | 619 | 960 | 399 | 439 | 250 | 240 | . df3 = pd.DataFrame(data) df3 . 0 1 2 3 4 5 6 7 8 9 . 0 278 | 684 | 229 | 411 | 922 | 863 | 163 | 422 | 224 | 450 | . 1 903 | 225 | 387 | 588 | 494 | 21 | 58 | 7 | 970 | 408 | . 2 174 | 47 | 333 | 630 | 229 | 234 | 103 | 988 | 651 | 259 | . 3 985 | 907 | 523 | 653 | 397 | 169 | 466 | 598 | 362 | 821 | . 4 241 | 116 | 609 | 466 | 310 | 223 | 626 | 545 | 916 | 239 | . 5 123 | 427 | 475 | 273 | 829 | 191 | 28 | 87 | 255 | 210 | . 6 869 | 93 | 991 | 792 | 525 | 167 | 394 | 456 | 130 | 497 | . 7 288 | 306 | 595 | 683 | 209 | 866 | 997 | 273 | 568 | 871 | . 8 513 | 730 | 880 | 745 | 77 | 753 | 432 | 783 | 916 | 53 | . 9 279 | 959 | 381 | 253 | 619 | 960 | 399 | 439 | 250 | 240 | .",
             "url": "https://veroberg.github.io/my_first_blog/blog/2021/01/18/First-post-(4).html",
@@ -23,7 +34,7 @@
     
   
     
-        ,"post2": {
+        ,"post3": {
             "title": "An Example Markdown Post",
             "content": "Example Markdown Post . Basic setup . Jekyll requires blog post files to be named according to the following format: . YEAR-MONTH-DAY-filename.md . Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and filename is whatever file name you choose, to remind yourself what this post is about. .md is the file extension for markdown files. . The first line of the file should start with a single hash character, then a space, then your title. This is how you create a “level 1 heading” in markdown. Then you can create level 2, 3, etc headings as you wish but repeating the hash character, such as you see in the line ## File names above. . Basic formatting . You can use italics, bold, code font text, and create links. Here’s a footnote 1. Here’s a horizontal rule: . . Lists . Here’s a list: . item 1 | item 2 | . And a numbered list: . item 1 | item 2 | Boxes and stuff . This is a quotation . . You can include alert boxes …and… . . You can include info boxes Images . . Code . You can format text and code per usual . General preformatted text: . # Do a thing do_thing() . Python code and output: . # Prints &#39;2&#39; print(1+1) . 2 . Formatting text as shell commands: . echo &quot;hello world&quot; ./some_script.sh --option &quot;value&quot; wget https://example.com/cat_photo1.png . Formatting text as YAML: . key: value - another_key: &quot;another value&quot; . Tables . Column 1 Column 2 . A thing | Another thing | . Tweetcards . Altair 4.0 is released! https://t.co/PCyrIOTcvvTry it with: pip install -U altairThe full list of changes is at https://t.co/roXmzcsT58 ...read on for some highlights. pic.twitter.com/vWJ0ZveKbZ . &mdash; Jake VanderPlas (@jakevdp) December 11, 2019 Footnotes . This is the footnote. &#8617; . |",
             "url": "https://veroberg.github.io/my_first_blog/markdown/2020/01/14/test-markdown-post.html",
